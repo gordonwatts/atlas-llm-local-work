@@ -1,0 +1,4 @@
+[submodule "atlas-skills-source"]
+	path = .codex/skill-sources/atlas-skills
+	url = https://github.com/gordonwatts/atlas-skills.git
+	branch = main
