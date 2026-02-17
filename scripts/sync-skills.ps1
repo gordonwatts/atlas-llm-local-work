@@ -9,9 +9,9 @@ if (-not (Test-Path $mapFile)) {
   Write-Error "Missing skill map: $mapFile"
 }
 
-git -C $repoRoot submodule update --init --remote .codex/skill-sources/atlas-skills
+git -C $repoRoot submodule update --init --recursive --remote
 if ($LASTEXITCODE -ne 0) {
-  Write-Error "Failed to update atlas-skills source submodule"
+  Write-Error "Failed to update skill source submodules"
 }
 
 $skillsDir = Join-Path $repoRoot ".codex/skills"

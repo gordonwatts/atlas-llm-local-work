@@ -1,1 +1,2 @@
 rucio-atlas .codex/skill-sources/atlas-skills/rucio-atlas
+repo-skill-installer .codex/skill-sources/local-skills/repo-skill-installer

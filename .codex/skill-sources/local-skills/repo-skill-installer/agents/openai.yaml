@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Skill Installer"
+  short_description: "Add external skills into this repo workspace"
+  default_prompt: "Add a skill from a GitHub tree URL into this repository using the cross-platform add/sync scripts."

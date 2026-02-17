@@ -10,10 +10,13 @@ if [[ ! -f "$map_file" ]]; then
   exit 1
 fi
 
-git -C "$repo_root" submodule update --init --remote .codex/skill-sources/atlas-skills
+git -C "$repo_root" submodule update --init --recursive --remote
 mkdir -p "$skills_dir"
 
 while read -r name source_rel; do
+  name="${name%$'\r'}"
+  source_rel="${source_rel%$'\r'}"
+
   if [[ -z "${name:-}" ]] || [[ "${name:0:1}" == "#" ]]; then
     continue
   fi
