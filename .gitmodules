@@ -2,3 +2,7 @@
 	path = .codex/skill-sources/atlas-skills
 	url = https://github.com/gordonwatts/atlas-skills.git
 	branch = main
+[submodule "iris-hep-marketplace"]
+	path = .codex/skill-sources/iris-hep-marketplace
+	url = https://github.com/iris-hep/marketplace.git
+	branch = main

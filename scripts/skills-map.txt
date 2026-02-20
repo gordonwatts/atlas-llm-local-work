@@ -1,2 +1,9 @@
 rucio-atlas .codex/skill-sources/atlas-skills/rucio-atlas
 repo-skill-installer .codex/skill-sources/local-skills/repo-skill-installer
+analysis-spec-builder .codex/skill-sources/iris-hep-marketplace/iris-hep/skills/analysis-spec-builder
+awkward-array .codex/skill-sources/iris-hep-marketplace/iris-hep/skills/awkward-array
+cli-creator .codex/skill-sources/iris-hep-marketplace/iris-hep/skills/cli-creator
+hist .codex/skill-sources/iris-hep-marketplace/iris-hep/skills/hist
+servicex .codex/skill-sources/iris-hep-marketplace/iris-hep/skills/servicex
+standalone-script .codex/skill-sources/iris-hep-marketplace/iris-hep/skills/standalone-script
+vector-awkward .codex/skill-sources/iris-hep-marketplace/iris-hep/skills/vector-awkward
